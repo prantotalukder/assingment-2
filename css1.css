@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-containar{
+    width: 80%;
+    margin:auto;
+    background:rgb(145, 145, 145);
+    margin-bottom: 10px;
+    
+}
+/* header start */
+.head{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+    background:#161616;
+    border-radius: 7px;
+    position:relative;
+    text-align: center;
+
+  
+}
+.head{
+    position: relative;
+    top:50px
+}
+.head .child-1{
+    width: 50%;
+}
+.child-h1{
+    margin-top: 1em;
+    color:white;
+    left: 40px;
+    position: relative;
+}
+.child-h6{
+    margin-top: 1em;
+    color:white;
+    position: relative;
+    left: 40px;
+}
+.cleck{
+    margin-top:3em;
+    border:none;
+    background:red;
+    color:white;
+    padding:5px 10px;
+    border-radius:7px;
+    position: relative;
+    bottom: 20px;
+}
+.fa-greater-than{
+    font-size: 13px;
+    padding: 5px;
+}
+.child-1 img{
+    width:100%;
+    margin-right: 1em;
+}
+
+/* header end.. */
+/* section..start */
+/* .contianar start */
+.contianar{
+display: grid;
+grid-template-columns: repeat(1,1fr) 2.2fr;
+width: 80%;
+margin: auto;
+border-radius: 7px;
+padding-right: 10px;
+position:relative;
+top:80px;
+padding-bottom :10px;
+
+
+
+}
+
+.containar-child{
+ width: 100%;
+}
+.containar-child img{
+    width: 100%;
+}
+
+.other-child{
+    display: grid;
+    grid-template-rows:repeat(3,66px);
+    position: relative;
+    background:#161616;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+.button{
+    position:relative;
+    margin: 15px;
+    border-radius: 7px;
+    border:none;
+    background: white;
+}
+.button a{
+    text-decoration: none;
+    color:rgb(217, 10, 10);
+}
+.button-1{
+    position:relative;
+    margin:15px;
+    border-radius: 7px;
+    border:none;
+    background:rgba(255, 0, 0, 0.92);
+    color: white;
+}
+.containar-child-1{
+    width:100%;
+    position:relative;
+}
+.main-child{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 100%;
+    
+    
+    
+}
+
+.header-child{
+
+    border:1px solid black;
+    width:100%;
+    border-radius: 7px;
+  
+}
+.fast-child{
+    width:100%;
+}
+.child-edit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    width: 80% ;
+    align-items: center;
+    left: 15px;
+    margin-top: 10px;
+    
+ 
+}
+.child-edit img ,p{
+    width:100%;
+    text-align: center;
+}
+
+
+.edit-text{
+    margin-top: 10px;
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    
+    
+    
+}
+.edit-text h3,h6{
+text-align: center;
+margin-top: 5px;
+}
+.edit-text h6{color:white}
+.fast-child img{
+    width:100%;
+
+}
+.fast-child .button-2{
+    position:relative;
+    left: 10px;
+    top:7px;
+    padding:1px 6px;
+    border-radius: 5px;
+    font-size: 9px;
+    border:1px solil grey ;
+
+}
+.fast-child .child-text{
+    position:relative;
+    width:100%;
+    font-size:8px;
+    left:10px;
+    top:15px;
+    padding-right: 10px;
+
+}
+.second-child{
+    width:100%;
+    display: flex;
+    margin-top:20px;
+    position:relative;
+    left:10px;
+    font-size: 9px;
+
+}
+.icon{
+display:flex;
+width: 100%;
+position:relative;
+left:10px;
+top:20px;
+}
+.icon-1st{
+    margin-bottom:5px ;
+}
+.icon1{
+    display:flex;
+    position:relative;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+.end-icon{
+    position:relative;
+    left: 15px;
+}
+
+/* .contianar..end */
+
+/* section..end... */
+/* footer..start */
+
+#containar-end{
+    width:100%;
+    height: 200px;
+    background:#161616;
+    margin: 0 auto;
+    text-align: center;
+   position:relative;
+   margin-top: 80px;
+
+
+}
+.end-child{
+    padding-top:50px;
+    color:white;
+}
+hr{
+    width:90%;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.last-child{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    margin:10px;
+}
+.last-child ul{
+    list-style: none;
+    font-size: 10px;
+} 
+.last-child a{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+.dot{
+    color:red
+}
+/* footer..end */
+@media screen and (max-width:560px) {
+    .head{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .child-1 img{
+        width: 100%;
+        position: relative;
+        left: 60PX;
+    }
+    .cleck{
+        position: relative;
+        left: 60px;
+        font-size: 10px;
+        
+
+    }
+    .contianar{
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+    .other-child{
+        background:none; 
+        grid-template-rows: repeat(3,66px);
+        
+
+    }
+    .button-1{
+        width: 180px;
+        margin: 0 auto;
+        position: relative;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+
+    .main-child{
+        margin-top: 20px;
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+    }
+    #containar-end{
+        width:100%;
+        height:400px;
+    }
+    .last-child{
+        width: 40%;
+        grid-template-columns: repeat(1,1fr);
+        background:#161616;
+        margin: auto;
+        
+
+    }
+    
+
+}
+@media screen and (min-width:560px) and (max-width:680px){
+    .cleck{
+        position: relative;
+        bottom: 20px;
+        left: 70px;
+    }
+    .contianar{
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+    .last-child ul{
+        font-size: 9px;
+    }
+
+    .other-child{
+        background:none; 
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,26px);
+        margin:0 auto;
+    }
+    .button-1{  
+        width: 120px;
+        margin: 0 auto;
+        position: relative;
+        height: 40px;
+        margin-right: 5px;
+        margin-top: 50px;
+       
+    }
+
+    .button{
+        width: 130px;
+        margin: 0 auto;
+        position: relative;
+        height: 40px;
+        margin-left: 3px;
+        margin-top: 50px;
+        
+    }
+    .main-child{
+        margin-top: 20px;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        right: 20px;
+        margin-top: 50px;
+        left: 10px;
+    }
+
+}
+
